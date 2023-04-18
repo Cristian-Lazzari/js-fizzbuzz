@@ -3,9 +3,34 @@
     box-sizing: border-box;
 }
 body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 3rem;
+
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    color: blue;
+}
+.fizz-buzz{
+    background-color: salmon;
+}
+.buzz{
+    background-color: red;
+}
+.fizz{
+    background-color: yellow;
 }
